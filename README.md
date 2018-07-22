@@ -1,6 +1,6 @@
 Responsive Web Design Projects - Build a Technical Documentation Page
 
-    **Objective: Build a CodePen.io app that is functionally similar to [this:]** (https://shyakaster.github.io/FCCTDP/)
+    Objective: Build a CodePen.io app that is functionally similar to [this:] (https://shyakaster.github.io/FCCTDP/)
 
     **Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.**
 
@@ -8,7 +8,7 @@ Responsive Web Design Projects - Build a Technical Documentation Page
 
     Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-    >> **User Story #1:** I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+    **User Story #1:** I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
     **User Story #2:** Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
 
