@@ -1,4 +1,4 @@
-**Responsive Web Design Projects - Build a Technical Documentation Page**
+**__Responsive Web Design Projects - Build a Technical Documentation Page__**
 
     Objective: Build a CodePen.io app that is functionally similar to [this:] (https://shyakaster.github.io/FCCTDP/)
 
