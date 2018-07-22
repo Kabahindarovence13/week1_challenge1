@@ -10,4 +10,4 @@
 
 >Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
->**User Story #1:** I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+**User Story #1:** I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
