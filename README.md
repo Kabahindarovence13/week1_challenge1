@@ -1,4 +1,4 @@
-**Responsive Web Design Project - Build a Technical Documentation Page**
+# Responsive Web Design Project - Build a Technical Documentation Page
 
 **Objective: Build a project that is functionally similar to [this](https://shyakaster.github.io/FCCTDP/)**
 
@@ -39,5 +39,3 @@
 **User Story #14:** On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 
 **User Story #15:** My Technical Documentation page should use at least one media query.
-
-**Remember to use the Read-Search-Ask method if you get stuck.**
