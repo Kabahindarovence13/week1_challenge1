@@ -12,27 +12,37 @@
     padding-bottom: 5px;
     grid-template-columns: auto auto;
     display: grid;
-    background-color:orange;
-  margin-left: 0%;
-  margin-bottom: 20px;
-  
+   background-color: cadetblue;;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    
+
+   
 } 
-
-
 #main-body{
-    padding-top: 50px;
-    border:1px;
+    padding-top: 10px;
+    padding-left: 310px;
+    border:2px solid cadetblue;
+    background-color:orange;
+   
+}
+#navbar ul ol{
+  padding-left: 2px;
+  padding-top: 15px;
+  display:block;
+  color:blue;
+
 }
 
 li {
   margin: 10px 15px;
 }
 header{
-    text-align: center;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, "sans-serif";
     font-size:xx-large;
     position: relative;
-    color:cadetblue;    
+    color:black;    
 }
 code {
   text-align: justify;
@@ -48,12 +58,33 @@ code {
 @media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -10px;
+    border:1px solid grey;
+  
+
   }
 }
 
-@media only screen and (max-width: 700px) {
-  #nav-bar{
-    
+  #navbar ul {
+    padding-right: 30px;
+    height: 207px;
+    position:fixed;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 500px){
+    #navbar{
+    padding-top:15px;
+    padding-right: 15px;
+    width:400px;
+    display:block;
+    z-index: auto;
+    font-size:18px;
+    border:1px solid black;
     position: fixed;
     top: 0;
     padding: 0;
@@ -62,46 +93,26 @@ code {
     max-height: 275px;
     z-index: 1;
     border-bottom: 2px solid;
-    background-color: white;
+  
     text-align: left;
     font-size: 20px;
 
-  }
-  #nav-bar ul {
-    border: 1px solid;
-    height: 207px;
-    position:fixed;
-    border:1 black solid;
-  
-}
 
-#nav-bar a {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-@media screen and (max-height: 500px){
-    #navbar{
-    padding-top:15px;
-    width:400px;
-    display:block;
-    z-index: auto;
-    font-size:18px;
 
 }  
 
-
 }
 #nav_link{
- 
-  padding: 10px;
-  border: solid grey 15px;
+  padding: 10px 10px 10px 10px;
   font-size: 16px;
   color:grey;
   text-decoration: none;
   margin-top: 5px;
+} 
+nav header{
+  position:fixed;
 }
-    
+
 </style>
 </head>
 
@@ -109,22 +120,22 @@ code {
     <div  id="main-doc" >
             <div  id="navbar">
                     <nav>
-                            <header>JS Documentation</header>
+                            <header>JS Documentation</header></br>
                    
                             <ul id="nav_link">
-                                <a  href="#Introduction" rel="internal">Introduction</a></br>
-                                <a href="#What you should already know" rel="internal"><ol>What you should already know</ol></a></br>
-                                <a href="#Javascript and Java"rel="internal"><ol>Javascript and Java</ol></a></br>
-                                <a href="#Hello world" rel="internal"><ol>Hello world</ol></a></br>
+                                <a href="#Introduction" rel="internal"><ol>Introduction</ol></a></br>
+                                <a href="#What_you_should_already_know" rel="internal"><ol>What you should already know</ol></a></br>
+                                <a href="#Javascript_and_Java"rel="internal"><ol>Javascript and Java</ol></a></br>
+                                <a href="#Hello_World" rel="internal"><ol>Hello World</ol></a></br>
                                 <a href="#Variables" rel="internal"><ol>Variables</ol></a></br>
-                                <a href="#Declaring variables" rel="internal"><ol>Declaring variables</ol></a></br>
-                                <a href="#Variable scope" rel="internal"><ol>Variable scope</ol></a></br>
-                                <a href="#Global variables" rel="internal"><ol>Global variables</ol></a></br>
+                                <a href="#Declaring_variables" rel="internal"><ol>Declaring variables</ol></a></br>
+                                <a href="#Variable_scope" rel="internal"><ol>Variable scope</ol></a></br>
+                                <a href="#Global_variables" rel="internal"><ol>Global variables</ol></a></br>
                                 <a href="#Constants" rel="internal"><ol>Constants</ol></a></br>
-                                <a href="#Data types" rel="internal"><ol>Data types</ol></a></br>
-                                <a href="#if else statement" rel="internal"><ol>if else statement</ol></a></br>
-                                <a href="#while statement" rel="internal"><ol>while statement</ol></a></br>
-                                <a href="#Function declarations" rel="internal"><ol>Function declarations</ol></a></br>
+                                <a href="#Data_types" rel="internal"><ol>Data types</ol></a></br>
+                                <a href="#if---else_statement" rel="internal"><ol>if---else statement</ol></a></br>
+                                <a href="#while_statement" rel="internal"><ol>while statement</ol></a></br>
+                                <a href="#Function_declarations" rel="internal"><ol>Function declarations</ol></a></br>
                                 <a href="#Reference" rel="internal"><ol>Reference</ol></a>
                                 
                             </ul>
