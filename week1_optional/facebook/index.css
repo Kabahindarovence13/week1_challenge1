@@ -1,0 +1,276 @@
+
+/*Custom styles*/
+.maincontainer{
+  background-color:whitesmoke;
+  height: 550px;
+}
+
+.top-nav{
+  height: 60px;
+  padding-top: 30px;
+  background-color: #4267b2;
+}
+
+.credentials{
+  float: right;
+  margin-right: 200px;
+}
+
+.email{
+  font-weight: normal;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.phone{
+  font-weight: normal;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.logo{
+  float: left;
+  margin-left: 150px;
+}
+
+.credentials label input{
+  display: block;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+
+.logins{
+  margin-top: 30px;
+  float: left;
+  margin-left: 100px;
+}
+div{
+  font-size: 12px;
+  color: royalblue;
+}
+
+p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.block{
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #f5f6f7;
+  width: 150px;
+  border-radius: 5px; 
+  margin-top: 20px;
+  height: 200px;
+}
+
+img{
+padding-left: 30px;
+margin-top: 10px;
+}
+
+
+.form{
+  margin-top: 30px;
+  float: right;
+  display: block;
+  margin-right: 100px;
+
+}
+
+.form input{
+  display: block;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+.gender input{
+  display: inline-block;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+
+
+
+.foot {
+  text-align: center;
+  bottom: 0;
+  height: 187px;
+  width: 100%;
+  background:#fff;
+  margin-top: 600px;
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+  /*  position:absolute; */
+    
+    
+}
+header{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+}
+/*when you move the cursor on the boards or the faceboom logo */
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form input[type=text]
+{
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    outline: none;
+    padding: 10px;
+margin-bottom: 20px;
+font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+    outline-offset: -2px;
+
+}
+.foot p{
+  text-align: center;
+  padding-top: 20px;
+  color: #4267b2;
+}
+.email{
+  float:left;
+}
+.phone{
+  float: left;
+}
+.loginbutton{
+  float: left;
+  margin-top:16px;
+  
+}
+.phone input[type=text]{
+  margin-right: 5px;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+.email input[type=text]{
+  margin-right: 5px;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+#login{
+  color: #fff;
+  background: #4267b2 ;
+  border: 1px solid #000;
+  border-radius: solid 2px;
+  width: 50px
+}
+
+#login:hover{
+  background: #415e9b;
+}
+.account input[type=text]
+{
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 500px; 
+  margin-bottom: 10px;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+
+#firstname{
+  width: 230px;
+  float:left;
+  margin-right: 14px;
+ 
+}
+#lastname{
+  width: 230px;
+  float: left;
+ 
+}
+
+#signup{
+
+width: 195px;
+height: 37px;
+border: solid 1px;
+border-radius: 5px;
+border-color: black;
+font-size: 19px;
+color: #fff;
+font-family: 'Freight Sans Bold';
+font-weight: bold;
+background: linear-gradient(#67ae55, #578843);
+background-color: #69a74e;
+box-shadow: inset 0 1px 1px #a4e388;
+border-color: #3b6e22 #3b6e22 #2c5115;
+   
+}
+.form label{
+  color: #77777a;
+  font-weight: bold !important;
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+#create{
+  padding-right: 20px;
+}
+
+p{
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+input{
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+}
+span{
+  font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+
+}
+.aftersignup{
+  margin-bottom: 10px;
+  border-top: 1px solid #dddfe2;
+  border-color:  #666;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+.foot ul li{
+  
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 2px;
+}
+.foot ul li a{
+  font-family: Helvetica;
+  font-size: 11px;
+}
+.langs{
+  
+  margin-bottom: 5px;
+  border-color:  #666;
+}
+
